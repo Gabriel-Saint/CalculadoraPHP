@@ -1,0 +1,55 @@
+@media screen and (max-width: 767px){
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+    .result {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, +750%);
+      position: absolute;
+    }
+    .btn {
+      display: inline-block;
+    }
+    input {
+      width: 100%;
+      height: 25px;
+      outline: none;
+      background-color: rgba(238, 231, 245, 0.822);
+      border-radius: 3px;
+      border: none;
+    }
+    .btn > input {
+      
+      width: 150px;
+      height: 30px;
+      cursor: pointer;
+      background-color: rgb(139, 53, 165);
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      margin-top: 10px;
+      font-size: 25px;
+      
+    }
+    .btn > input:hover {
+      background-color: rgb(95, 37, 112);
+    }
+    h3 {
+      text-align: center;
+      padding: 10px;
+      transform: translateY(-15px);
+    
+    }
+}
